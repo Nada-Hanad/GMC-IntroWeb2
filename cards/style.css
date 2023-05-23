@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sigmar", cursive;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #cad1f0;
+  background-image: linear-gradient(
+    43deg,
+    #d9def3 0%,
+    #f6dff5 30%,
+    #f8eadb 66%,
+    #ffffff 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.card {
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  box-shadow: 1px 0px 12px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 0px 12px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 0px 12px -1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-out;
+  position: relative;
+}
+.card i {
+  font-size: 40px;
+}
+.card:first-child {
+  background-color: rgb(135, 187, 189);
+  color: white;
+  z-index: 2;
+}
+.card:hover {
+  transform: translateY(-30px);
+}
+.first-button {
+  height: 64px;
+  width: 64px;
+  background-color: black;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  position: absolute;
+  bottom: 24px;
+  right: -32px;
+}

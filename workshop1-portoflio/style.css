@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #1f2235;
+  color: white;
+}
+nav {
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav i {
+  color: white;
+  font-size: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.hero ul li {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #ff4a57;
+}
+.hero {
+  color: white;
+}
+.hero ul {
+  display: flex;
+  gap: 24px;
+}
+.left-hero {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.secondary-button {
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 24px;
+  border: 2px solid #ff4a57;
+}
+.primary-button {
+  background-color: #ff4a57;
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 24px;
+}
+.action-buttons {
+  display: flex;
+  gap: 24px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.services {
+  padding-top: 64px;
+  text-align: center;
+}
+.hero img {
+  width: 400px;
+}
+.service {
+  height: 300px;
+  width: 300px;
+  background-color: #23263a;
+
+  border-radius: 8px;
+  padding: 24px 16px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.service i {
+  font-size: 40px;
+  color: #ff4a57;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 24px;
+  margin: auto;
+  width: fit-content;
+}
